@@ -1,0 +1,9 @@
+# Auto detect text files and perform LF normalization
+1、知识准备
+		classPath的作用：  配置完后，java的类加载器会直接去classPath中设置的值的路径中去找class文件   类似于指定一个路径让java类加载器加载class文件
+		java运行过程：当执行java命令后，首先开启jvm（java虚拟机），然后jvm启动类加载器（classLoader），类加载器找到字节码文件，交给解释器翻译成二进制文件，最后跟操作系统和硬件交互。
+2、配置过程
+  计算机-》右键-》属性-》高级系统设置-》环境变量-》新建  
+   classPath= a;b;c;     classPath  变量名         a; 变量值  
+		
+* text=auto
